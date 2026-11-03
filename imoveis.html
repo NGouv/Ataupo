@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0b1b2b">
+    <meta
+      name="description"
+      content="Conheça os imóveis demonstrativos de Ataupo Pereira em Porto Velho."
+    >
+    <title>Imóveis | Ataupo Pereira</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,400,20,1;0,9..144,500,20,1;1,9..144,400,20,1&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="./styles.css">
+    <script type="module" src="./script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="site-header">
+      <a class="wordmark" href="./index.html#inicio" aria-label="Ataupo Pereira, início">
+        <span class="wordmark-name">Ataupo <em>Pereira</em></span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        aria-label="Abrir menu"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Navegação principal">
+        <a href="./index.html#imoveis">Imóveis</a>
+        <a href="./index.html#sobre">O corretor</a>
+        <a href="./index.html#atendimento">Como trabalho</a>
+        <a class="nav-contact" href="./index.html#contato">Vamos conversar <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="conteudo" class="detail-main">
+      <section class="property-detail-section" aria-label="Detalhes do imóvel">
+        <div class="detail-section-wrap" id="property-detail" aria-live="polite">
+          <p class="detail-loading">Carregando os detalhes do imóvel…</p>
+        </div>
+        <noscript>
+          <p class="detail-loading">Ative o JavaScript para consultar os detalhes demonstrativos deste imóvel.</p>
+        </noscript>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="footer-name" href="./index.html#inicio">Ataupo <em>Pereira</em></a>
+      <p>Corretor de Imóveis <span>·</span> CRECI 5457<br>Porto Velho <span>·</span> RO</p>
+      <div class="footer-links">
+        <a href="https://wa.me/5569993438033" target="_blank" rel="noopener noreferrer">WhatsApp <span aria-hidden="true">↗</span></a>
+        <a href="https://www.instagram.com/corretorataupo/" target="_blank" rel="noopener noreferrer">Instagram <span aria-hidden="true">↗</span></a>
+      </div>
+      <span class="copyright">© <span id="current-year">2026</span> Ataupo Pereira</span>
+    </footer>
+  </body>
+</html>
